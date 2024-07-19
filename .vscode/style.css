@@ -11,6 +11,7 @@ body {
     background-size: cover; */
 
     background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+    height: 100vh;
 }
 
 body * {
@@ -106,3 +107,10 @@ ul li a:hover{
     background: rgba(255, 255, 255, 0.2); 
 }
 
+
+/* media queries */
+@media (min-width: 700px) {
+    :root{
+        --bg-url: url(./assets/bg-desktop.jpg);
+    }
+}
